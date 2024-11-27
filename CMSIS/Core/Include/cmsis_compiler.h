@@ -274,6 +274,12 @@
   #endif
 
 
+/*
+ * Cppcheck static C/C++ code analyzer
+ */
+#elif defined ( __cppcheck__ )
+  /* nothing */
+
 #else
   #error Unknown compiler.
 #endif
